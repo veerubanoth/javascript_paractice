@@ -1,16 +1,10 @@
-// funtion 
-function greet(name, callback) {
-  console.log(`hi ${name}`);
-  callback();
+function greet(){
+  console.log("Hello World");
 }
 
-//~> Callback Function 
-function callMe(){
-    console.log('I am callback function');
+function sayName(name){
+  console.log(`Hello ${name}`);
 }
 
-// passing function as an argument 
-greet('Jhon', callMe);
-
-
-
+setTimeout(greet, 2000);
+sayName('Jhon');
