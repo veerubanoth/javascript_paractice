@@ -1,0 +1,11 @@
+.div2 {
+  width: 150px;
+  border: 5px solid red;
+  padding: 50px;
+  margin: 20px;
+}
+.div1 {
+  width: 50px;
+  border: 5px solid green;
+  padding: 50px;
+}

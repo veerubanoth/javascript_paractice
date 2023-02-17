@@ -4,8 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Your JavaScript Playground</title>
-    <link rel="stylesheet" href="/style.78032849.css" />
-    <script src="/style.78032849.js"></script>
+    <link rel="stylesheet" href="/style.css" />
   </head>
   <body style="text-align: center">
     <div id="main">
@@ -17,10 +16,20 @@
     <button id="afternoon">Afternoon</button>
     <button id="evening">Evening</button>
     <button id="night">Night</button>
-    <script type="module" src="./Events/addEventListener.js"></script>
-    <input value ='click me' type="button" onclick="alert('Click Me!') ">
-    <div style="padding-top: 2%;">
+    <script type="module" src="./Events/01_addEventListener.js"></script>
+    <script type="module" src="./Events/02_EventProbagation.js"></script>
+    <input value="click me" type="button" onclick="alert('Click Me!') " />
+    <div style="padding-top: 2%">
       <button>addEventListener</button>
+    </div>
+    <br />
+
+    <div class="div2">
+      2
+      <div class="div1">
+        1
+        <button id="inner">Click</button>
+      </div>
     </div>
   </body>
 </html>
