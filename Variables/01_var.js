@@ -1,3 +1,4 @@
+//~! A variable is a "named storage" for data. We can use variables to store goodies, visitors & other data.
 //~! Scope refers to the context, the limits within which your variables and their values are visible & accessible.
 //~! A topmost context known as global or window scope is provided by the browser when javascript executes in the browser.
 //~! Variables created using var keyword at the top level endup in global namespace in web browsers.
