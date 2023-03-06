@@ -73,7 +73,7 @@ switch (day) {
 }
 //=========================================
 
-let item = "kiwi";
+let item = "potato";
 let type;
 
 switch (item) {
