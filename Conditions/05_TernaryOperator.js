@@ -1,11 +1,11 @@
-// The ternary operator massively cut down on the number of lines need to express conditionals.
-// This in a massive codebase can cut down on lines of code and consequently file sizes
-// which can impact the size of downloads at the end.
+//~% The ternary operator massively cut down on the number of lines need to express conditionals.
+//~% This in a massive codebase can cut down on lines of code and consequently file sizes
+//~% which can impact the size of downloads at the end.
 
-//Syntax
-//=============
+//~#Syntax
+//~#=============
 
-// Regular if-else
+//~# Regular if-else
 //======================
 
 let temperature = 15;
@@ -16,7 +16,7 @@ if (temperature >= 25) {
   console.log("Today is a cold day");
 }
 
-//Ternary Operator
+//~#Ternary Operator
 //======================
 temperature > 25
   ? console.log("Today is a warm day")
@@ -25,7 +25,7 @@ temperature > 25
 let feelTemp = temperature >= 25 ? "warm" : "cool";
 console.log(`Today is a ${feelTemp} day`);
 
-//More Examples
+//~#More Examples
 //=============
 
 let cost = 2000;

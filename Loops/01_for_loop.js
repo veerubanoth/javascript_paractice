@@ -1,5 +1,11 @@
 //~> Running statements repeatedly.
-//~> Iterative execution of task is often implmented when dealing with data.
+//~> Iterative execution of task is often implemented when dealing with data.
+
+//~# for       - Loops through a block of code a number of times.
+//~# for/in    - Loops through the properties of an object.
+//~# for/of    - Loops through the values of an iterable object.
+//~# while     - loops through a block of code while a specified condition is true.
+//~# do/while  - Also loops through a block of code while a specified condition is true.
 
 //~* Loops are programming constructs allowing us to iteratively execute code based on iterations,
 //~* or the number of elements in an array, or an object to conditional iteration.
