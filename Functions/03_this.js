@@ -28,7 +28,7 @@ let user = {
   name: "Jhon",
   age: 30,
   sayHi: function () {
-    console.log(this.name); //* The value of this will be user
+    console.log(this.name, this.age); //* The value of this will be user
   },
 };
 user.sayHi();
@@ -48,7 +48,7 @@ function vfn() {
 var person = {
   name: "veeru",
   age: 36,
-  print: function () {},
+  print: function () { },
 };
 
 //~! THIS inside Constructor functions
