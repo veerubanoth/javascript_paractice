@@ -16,7 +16,7 @@ console.log(`This is Arrow Function: ${arrow}`);
 const obj = {
    name: "RAHUL",
    regularFunc: function () {
-      console.log(`Binding of "this" with Regular Function: ${this.name}`);
+      console.log(`Binding "this" with Regular Function: ${this.name}`);
    }
 };
 obj.regularFunc();
@@ -27,13 +27,19 @@ const objArrow = {
       console.log(this.name);
    }
 }
-obj.arrowFunc();//# 'this' refer to the global scope rather than 
-//# the object `objArrow`
+// obj.arrowFunc();
+//# 'this' refer to the global scope rather than the object `objArrow`
 //~%  Do not bind their own this value. Instead, 
 //~% they inherit the this value from the surrounding scope in which they are defined.
 
 
 
-//~# Arguments object
+//~# 3. Arguments object
+//~* Regular Function 
 //* Regular functions: Have access to the arguments object, 
 //* Which is an array - like object containing all the arguments passed to the function.
+
+function regularFunc(x, y) {
+   console.log(arguments);
+}
+regularFunc(1, 2, 3);

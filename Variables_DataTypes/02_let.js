@@ -22,7 +22,7 @@ let APPLE; // These two varialbles are two different variables.
 // if (a > 10) {
 //   let x = 10;
 // }
-// Variables creatted using let aren't available before they are initialized unlike var which are hoisted and set to undefined
+// Variables created using let aren't available before they are initialized unlike var which are hoisted and set to undefined
 // Block or expression scoped variables .
 // canot be re-declared in the same scope.
 
@@ -41,7 +41,7 @@ let _ = 2;
 
 
 var x = 100; // Globally scoped or function scoped.
-for (let x=0; x<10; x++){// variables created using let are only available within a block.
+for (let x = 0; x < 10; x++) {// variables created using let are only available within a block.
   console.log(`The Number is ${x}`);//variables created using let are only available within a block.
 }
 console.log(`Original Number is: ${x}`);
@@ -49,13 +49,13 @@ console.log(`Original Number is: ${x}`);
 // The statement marked in red will throw an error!. 
 
 
-function doSomethind(){
+function doSomethind() {
   console.log(user);
   var user = "veeru"; // undefined
 }
 doSomethind();
 
-function doSomethind(){
+function doSomethind() {
   console.log(user);
   let user = "veeru"; // Uncaught ReferenceError: Cannot access 'user' before initialization 
 }
