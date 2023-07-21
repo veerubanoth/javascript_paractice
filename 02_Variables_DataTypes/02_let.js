@@ -11,7 +11,7 @@ let user = "veeru", //^ Define multiple variables in this multiline style.
 let message;
 message = "Hello!";
 message = "World"; //? value changed.
-//% When the value is changed, the old data is removied from the variable.
+//% When the value is changed, the old data is removed from the variable.
 //% Variable should be declared only once.
 //% A repeated declaration of the same variable is an error.
 //% so, we should declare a variable once and then refer to it without let.

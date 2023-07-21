@@ -15,7 +15,7 @@ let newName = name;
 newName = "Rahul";
 
 let newPerson = person;
-newPerson.name = "Rahul"; // refers to Same heap 
+newPerson.name = "Rahul"; // refers to Same heap location 
 
 console.log(name, newName);
 console.log(person, newPerson);
