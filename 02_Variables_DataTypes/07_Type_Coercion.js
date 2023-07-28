@@ -12,6 +12,6 @@ x = Number(null);
 x = Number(true);
 x = Number(false);
 x = 5 + true;
-z = 5 - 0;
+z = 5 - 0; 
 x = 5 + undefined;
 console.log(`z is ${z}`)
